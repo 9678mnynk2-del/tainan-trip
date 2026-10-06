@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153b3b">
+  <title>旅行也是放鬆與學習｜台南兩天一夜</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8b86a'/%3E%3Cpath d='M16 42h32M20 42V27l12-8 12 8v15M27 42V31h10v11' fill='none' stroke='%23153b3b' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light; --ink:#4a2b1d; --muted:#806653; --cream:#f1f2f3; --card:#fffaf0; --gold:#ffd166; --teal:#d85b2a; --line:#f0d2a6; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--cream); color:var(--ink); font-family:"Bradley Hand","Segoe Print","Kaiti TC","DFKai-SB","Noto Sans TC",cursive; font-size:16px; line-height:1.7; letter-spacing:.025em; }
+    .wrap { width:min(100% - 32px, 720px); margin:auto; }
+    .hero-image { display:block; width:100%; height:auto; max-height:none; object-fit:cover; object-position:center; border-radius:0; }
+    header { position:relative; background:transparent; color:var(--ink); padding:0; }
+    .eyebrow { color:var(--gold); font-size:.94rem; font-weight:700; letter-spacing:.16em; margin:0 0 10px; }
+    h1 { font-size:clamp(2.1rem, 9vw, 3.35rem); line-height:1.18; letter-spacing:.08em; margin:0 0 14px; }
+    .intro { margin:0; color:#dbe6df; font-size:1rem; }
+    header > .wrap { position:absolute; left:50%; bottom:24px; z-index:2; transform:translateX(-50%); }
+    nav { display:flex; gap:10px; margin-top:0; }
+    nav a { color:var(--teal); background:var(--gold); text-decoration:none; font-weight:800; padding:8px 15px; border-radius:99px; }
+    main { padding:32px 0 48px; }
+    .day { scroll-margin-top:18px; margin-bottom:38px; }
+    .day-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:16px; }
+    h2 { margin:0; font-size:1.65rem; letter-spacing:.09em; }
+    .day-note { color:var(--muted); font-size:.9rem; }
+    .stops { display:grid; gap:13px; }
+    .stop { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 18px 17px; box-shadow:0 5px 15px rgba(24,53,54,.05); }
+    .stop-top { display:flex; align-items:center; gap:12px; margin-bottom:5px; }
+    time { color:var(--teal); font-weight:800; min-width:58px; font-variant-numeric:tabular-nums; }
+    .dot { width:9px; height:9px; background:var(--gold); border-radius:50%; flex:0 0 auto; }
+    h3 { margin:0; font-size:1.18rem; line-height:1.45; letter-spacing:.04em; }
+    .place { margin:0 0 0 79px; color:var(--muted); font-size:.92rem; }
+    .desc { margin:9px 0 0 79px; }
+    .demo { display:inline-block; margin-left:7px; padding:1px 7px; border:1px solid #d9c28f; border-radius:5px; color:#8b6a2d; font-size:.73rem; line-height:1.5; vertical-align:2px; }
+    footer { border-top:1px solid var(--line); padding:22px 0 36px; color:var(--muted); font-size:.88rem; }
+    @media (min-width:600px) { .stop { padding:20px 22px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="hero-image" src="images/cover.webp" alt="台南老城街景與兩位朋友散步的溫暖插畫">
+    <div class="wrap">
+      <nav aria-label="行程日選單"><a href="#day-one">第一天</a><a href="#day-two">第二天</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="day" id="day-one" aria-labelledby="day-one-title">
+      <div class="day-heading"><h2 id="day-one-title">第一天</h2><span class="day-note">老城散步・夜食</span></div>
+      <div class="stops">
+        <article class="stop"><div class="stop-top"><time>10:30</time><span class="dot"></span><h3>阿堂鹹粥</h3></div><p class="place">中西區・西門路一段</p><p class="desc">以一碗台南經典鹹粥開場，吃飽後再慢慢逛赤崁樓周邊。</p></article>
+        <article class="stop"><div class="stop-top"><time>13:00</time><span class="dot"></span><h3>赤崁樓</h3></div><p class="place">民族路二段</p><p class="desc">看看紅磚古蹟與院落細節，順路感受周邊的老屋街景。</p></article>
+        <article class="stop"><div class="stop-top"><time>15:30</time><span class="dot"></span><h3>蜷尾家</h3></div><p class="place">中西區・正興街</p><p class="desc">吃一份人氣霜淇淋，沿著正興街散步，讓午後多一點甜。</p></article>
+        <article class="stop"><div class="stop-top"><time>18:30</time><span class="dot"></span><h3>阿村牛肉湯</h3></div><p class="place">中西區・保安路</p><p class="desc">用一碗溫體牛肉湯當晚餐，吃飽後沿著老城街區散步看夜景。</p></article>
+      </div>
+    </section>
+
+    <section class="day" id="day-two" aria-labelledby="day-two-title">
+      <div class="day-heading"><h2 id="day-two-title">第二天</h2><span class="day-note">市場・午後回程</span></div>
+      <div class="stops">
+        <article class="stop"><div class="stop-top"><time>08:30</time><span class="dot"></span><h3>富盛號碗粿</h3></div><p class="place">中西區・民族路三段</p><p class="desc">用一份老字號碗粿開啟第二天，感受台南米食的樸實風味。</p></article>
+        <article class="stop"><div class="stop-top"><time>10:30</time><span class="dot"></span><h3>台南美術館二館</h3></div><p class="place">忠義路二段</p><p class="desc">在明亮的展館裡看展、吹冷氣，替行程加入一段安靜時光。</p></article>
+        <article class="stop"><div class="stop-top"><time>13:30</time><span class="dot"></span><h3>金德春捲</h3></div><p class="place">中西區・民族路二段</p><p class="desc">午餐吃一份清爽的台南春捲，回程前再買份伴手禮和喜歡的小點。</p></article>
+        <article class="stop"><div class="stop-top"><time>15:30</time><span class="dot"></span><h3>藍晒圖文創園區</h3></div><p class="place">西門路一段</p><p class="desc">逛逛特色店家、拍幾張紀念照，替兩天旅程收一個輕鬆的尾聲。</p></article>
+      </div>
+    </section>
+  </main>
+
+  <section class="wrap" aria-labelledby="before-trip-title">
+    <div class="day-heading"><h2 id="before-trip-title">行前提醒</h2></div>
+    <div class="stop">
+      <p><strong>天氣：</strong>示意：晴時多雲，約 24–30°C</p>
+      <p><strong>要帶的東西：</strong>示意：水壺、防曬、雨具、好走的鞋</p>
+      <p><strong>集合時間：</strong>示意：第一天 10:15，台南火車站前站</p>
+    </div>
+  </section>
+
+  <footer><div class="wrap">行程中的店名與時間皆為示意，出發前再換成實際資訊即可。</div></footer>
+</body>
+</html>
